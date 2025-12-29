@@ -106,7 +106,8 @@ html, body {
 .divider {
   border: none;
   border-top: 1px solid #e0e0e0;
-  margin-bottom: 8px;
+  margin: 6px 0;
+  flex-shrink: 0;
 }
 
 /* ================= TEXT ================= */
@@ -224,8 +225,8 @@ html, body {
 }
 
 .btn-outline.gray {
-  border-color: #3f3f3f;
-  color: #3f3f3f;
+  border-color: black;
+  color: black;
 }
 
 /* ================= UNAVAILABLE ================= */
@@ -305,7 +306,7 @@ html, body {
 /* TEXT */
 .unavailable-text {
   font-size: 14px;
-  color: #666;
+  color: black;
   margin-bottom: 12px;
   text-align: center;
 }
